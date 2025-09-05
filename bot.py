@@ -2,7 +2,7 @@ import logging
 from telegram.ext import Updater, CommandHandler
 
 # 👉 Bot Token ကို တိုက်ရိုက် ထည့်ထားသည်
-TOKEN = "8401563933:AAHg8-cST_r4W1HHxSHUpHjZacz9WdtVVlA"
+TOKEN = "8261763462:AAFLl4RTMctrrLMU4_0kPJ2vkdUuwVXd7"
 
 # Log config
 logging.basicConfig(
