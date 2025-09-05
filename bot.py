@@ -1,7 +1,7 @@
 import logging
 from telegram.ext import Updater, CommandHandler
 
-# 👉 မင်းရဲ့ Bot Token
+# 👉 Bot Token ကို တိုက်ရိုက် ထည့်ထားသည်
 TOKEN = "8401563933:AAHg8-cST_r4W1HHxSHUpHjZacz9WdtVVlA"
 
 # Log config
@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 
 def start(update, context):
-    update.message.reply_text("မင်္ဂလာပါ 👋 Bot အလုပ်လုပ်နေပါပြီ ✅")
+    update.message.reply_text("မင်္ဂလာပါ 👋 LuckyMinerMyanmarBot အလုပ်လုပ်နေပါပြီ!")
 
 def main():
     updater = Updater(TOKEN, use_context=True)
